@@ -1,0 +1,47 @@
+# OSX
+.DS_Store
+.DS_Store?
+
+# Node
+node_modules
+coverage
+.env
+
+# IntelliJ
+.idea
+*.iml
+
+# VSCode
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Flutter/Dart
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+.metadata
+app.*.symbols
+app.*.map.json
+
+# Local credentials / build-time dart defines — never commit
+dart_defines.env
+
+# Desktop platforms (out of scope — app targets web, iOS, Android)
+linux/
+macos/
+windows/
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Internal AI-assisted design/plan artifacts
+docs/superpowers/
+
+.tokensave

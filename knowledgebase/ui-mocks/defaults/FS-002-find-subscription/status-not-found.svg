@@ -1,0 +1,41 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Screen background -->
+  <rect width="390" height="844" rx="40" fill="#F4F5F7"/>
+
+  <!-- Status bar -->
+  <text x="28" y="32" font-size="13" font-weight="600" fill="#FFFFFF">9:41</text>
+  <rect x="318" y="22" width="18" height="11" rx="2" fill="#FFFFFF"/>
+  <rect x="340" y="20" width="22" height="13" rx="3" fill="#FFFFFF"/>
+  <rect x="364" y="23" width="2" height="7" rx="1" fill="#FFFFFF"/>
+
+  <!-- Partner top bar -->
+  <path d="M0 40 h390 v60 H0 Z" fill="#1473E6"/>
+  <path d="M0 0 h390 v40 H0 Z" fill="#1473E6"/>
+  <text x="28" y="76" font-size="20" fill="#FFFFFF">‹</text>
+  <text x="195" y="76" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">My Subscription</text>
+
+  <!-- Illustration (neutral, not error) -->
+  <circle cx="195" cy="240" r="72" fill="#FDEAE7"/>
+  <rect x="163" y="208" width="64" height="64" rx="14" fill="#EB1000" opacity="0.12"/>
+  <text x="195" y="252" font-size="32" text-anchor="middle" fill="#EB1000">✦</text>
+
+  <!-- Copy -->
+  <text x="195" y="346" font-size="20" font-weight="700" fill="#1A1A1A" text-anchor="middle">Not yet activated</text>
+  <text x="195" y="376" font-size="14" fill="#6B7280" text-anchor="middle">You haven't claimed Adobe Express</text>
+  <text x="195" y="396" font-size="14" fill="#6B7280" text-anchor="middle">Premium yet.</text>
+
+  <!-- Offer summary card -->
+  <rect x="24" y="424" width="342" height="120" rx="16" fill="#FFFFFF"/>
+  <rect x="44" y="444" width="48" height="48" rx="10" fill="#EB1000"/>
+  <text x="68" y="475" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">Ex</text>
+  <text x="106" y="464" font-size="15" font-weight="600" fill="#1A1A1A">Adobe Express Premium</text>
+  <text x="106" y="484" font-size="13" fill="#6B7280">Included in your plan</text>
+  <text x="106" y="518" font-size="12" fill="#9AA0A6">Create, edit, and share content</text>
+
+  <!-- Claim CTA -> FS-001 -->
+  <rect x="24" y="566" width="342" height="52" rx="14" fill="#EB1000"/>
+  <text x="195" y="599" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">Claim Adobe Express Premium</text>
+
+  <!-- Note -->
+  <text x="195" y="650" font-size="12" fill="#9AA0A6" text-anchor="middle">Free with your plan · Takes about 2 minutes</text>
+</svg>

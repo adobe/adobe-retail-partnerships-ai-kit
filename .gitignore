@@ -1,0 +1,49 @@
+# macOS / IDE
+.DS_Store
+.idea/
+
+# Claude Code local wiring — generated from skills/ + adapters/claude/ by the
+# setup guide (manual/setup/claude-code.md); not part of the shipped kit.
+.claude/
+
+# GitHub Copilot local wiring — generated from skills/ + adapters/copilot/ by the
+# setup guide (manual/setup/copilot.md); not part of the shipped kit.
+.github/copilot-instructions.md
+.github/prompts/
+
+# Referenced ref app — read-only clone, not committed (re-pullable)
+.ref/
+
+# Generated/updated branded app — derived from mocks/ + .ref/, not committed
+# (anchored to repo root only — must NOT match base-ref-app/android/app/)
+/app/
+
+# Local runtime config
+**/dart_defines.env
+.env
+
+# Tool runtime state (per-use, not shipped with the kit)
+.target-app
+.target-apps
+partner-cards/
+partner-brand/
+mcp-server.log
+*.log
+
+# Generated per-engagement service cards. The templates and README ship with the
+# kit; the filled per-surface card sets are re-derivable output, not committed.
+service-cards/*
+!service-cards/README.md
+!service-cards/_templates/
+!service-cards/_templates/**
+
+# A partner's own dropped-in mocks are inputs, not part of the kit.
+# Keep the README and the blank _template (these ship with the kit); ignore each partner folder.
+mocks/*
+!mocks/README.md
+!mocks/_template/
+!mocks/_template/**
+.ref-source
+
+# Ephemeral agent worktrees
+.claude/worktrees/

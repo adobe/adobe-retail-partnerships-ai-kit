@@ -1,0 +1,41 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Dimmed underlying screen -->
+  <rect width="390" height="844" rx="40" fill="#1A1A1A"/>
+  <rect width="390" height="844" rx="40" fill="#F4F5F7" opacity="0.35"/>
+
+  <!-- Faint partner top bar behind the sheet -->
+  <path d="M0 40 h390 v60 H0 Z" fill="#1473E6" opacity="0.5"/>
+  <path d="M0 0 h390 v40 H0 Z" fill="#1473E6" opacity="0.5"/>
+  <text x="195" y="76" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.7">My Subscription</text>
+
+  <!-- Bottom sheet modal -->
+  <path d="M0 470 h390 v374 a40 40 0 0 1 -40 40 H40 a40 40 0 0 1 -40 -40 Z" fill="#FFFFFF"/>
+  <rect x="0" y="470" width="390" height="24" rx="24" fill="#FFFFFF"/>
+
+  <!-- Drag handle -->
+  <rect x="172" y="486" width="46" height="4" rx="2" fill="#DADDE1"/>
+
+  <!-- Product icon -->
+  <rect x="163" y="510" width="64" height="64" rx="16" fill="#FDEAE7"/>
+  <rect x="171" y="518" width="48" height="48" rx="10" fill="#EB1000"/>
+  <text x="195" y="548" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">Ex</text>
+
+  <!-- Heading -->
+  <text x="195" y="608" font-size="19" font-weight="700" fill="#1A1A1A" text-anchor="middle">Cancelling your subscription</text>
+
+  <!-- Body -->
+  <text x="195" y="644" font-size="14" fill="#4B5563" text-anchor="middle">Processing your cancellation…</text>
+  <text x="195" y="664" font-size="14" fill="#4B5563" text-anchor="middle">This will only take a moment.</text>
+
+  <!-- Confirm button (processing, disabled) -->
+  <rect x="24" y="702" width="342" height="52" rx="14" fill="#FDEAE7"/>
+  <circle cx="166" cy="728" r="9" fill="none" stroke="#F4C9C2" stroke-width="3"/>
+  <path d="M 166 719 A 9 9 0 0 1 175 728" fill="none" stroke="#C81E00" stroke-width="3" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 166 728" to="360 166 728" dur="0.9s" repeatCount="indefinite"/>
+  </path>
+  <text x="190" y="733" font-size="15" font-weight="700" fill="#C81E00" text-anchor="middle">Cancelling…</text>
+
+  <!-- Keep button (disabled while processing) -->
+  <rect x="24" y="766" width="342" height="52" rx="14" fill="#F1F2F4"/>
+  <text x="195" y="799" font-size="15" font-weight="600" fill="#B6BBC2" text-anchor="middle">Keep my subscription</text>
+</svg>

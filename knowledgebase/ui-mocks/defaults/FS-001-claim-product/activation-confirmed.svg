@@ -1,0 +1,47 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Screen background -->
+  <rect width="390" height="844" rx="40" fill="#FFFFFF"/>
+
+  <!-- Status bar -->
+  <text x="28" y="32" font-size="13" font-weight="600" fill="#FFFFFF">9:41</text>
+  <rect x="318" y="22" width="18" height="11" rx="2" fill="#FFFFFF"/>
+  <rect x="340" y="20" width="22" height="13" rx="3" fill="#FFFFFF"/>
+  <rect x="364" y="23" width="2" height="7" rx="1" fill="#FFFFFF"/>
+
+  <!-- Partner top bar -->
+  <path d="M0 40 h390 v60 H0 Z" fill="#1473E6"/>
+  <path d="M0 0 h390 v40 H0 Z" fill="#1473E6"/>
+  <circle cx="36" cy="70" r="10" fill="rgba(255,255,255,0.25)"/>
+  <text x="36" y="75" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">P</text>
+  <text x="56" y="76" font-size="17" font-weight="700" fill="#FFFFFF">Partner App</text>
+
+  <!-- Success illustration -->
+  <circle cx="195" cy="250" r="80" fill="#E3F4E9"/>
+  <circle cx="195" cy="250" r="58" fill="#1E9E54"/>
+  <polyline points="168,250 187,269 223,233" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Heading -->
+  <text x="195" y="372" font-size="24" font-weight="700" fill="#1A1A1A" text-anchor="middle">You're all set!</text>
+  <text x="195" y="402" font-size="15" fill="#4B5563" text-anchor="middle">Adobe Express Premium is now</text>
+  <text x="195" y="422" font-size="15" fill="#4B5563" text-anchor="middle">active on your account.</text>
+
+  <!-- Subscription details card -->
+  <rect x="24" y="450" width="342" height="124" rx="16" fill="#F4F5F7"/>
+  <text x="48" y="480" font-size="12" font-weight="600" fill="#9AA0A6" letter-spacing="0.5">SUBSCRIPTION DETAILS</text>
+  <text x="48" y="508" font-size="14" font-weight="600" fill="#1A1A1A">Adobe Express Premium</text>
+  <text x="48" y="530" font-size="13" fill="#6B7280">Status: Active</text>
+  <text x="48" y="552" font-size="13" fill="#6B7280">Valid until: Jan 28, 2027</text>
+  <rect x="286" y="496" width="56" height="22" rx="11" fill="#E3F4E9"/>
+  <text x="314" y="511" font-size="11" font-weight="600" fill="#1E9E54" text-anchor="middle">Active</text>
+
+  <!-- Primary CTA -->
+  <rect x="24" y="598" width="342" height="52" rx="14" fill="#EB1000"/>
+  <text x="195" y="631" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">Open Adobe Express</text>
+
+  <!-- Secondary CTA -->
+  <text x="195" y="684" font-size="14" font-weight="600" fill="#1473E6" text-anchor="middle">View subscription details</text>
+
+  <!-- Bottom note -->
+  <text x="195" y="744" font-size="12" fill="#9AA0A6" text-anchor="middle">You can manage your subscription</text>
+  <text x="195" y="762" font-size="12" fill="#9AA0A6" text-anchor="middle">in My Account → Benefits</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Screen background -->
+  <rect width="390" height="844" rx="40" fill="#F4F5F7"/>
+
+  <!-- Status bar -->
+  <text x="28" y="32" font-size="13" font-weight="600" fill="#FFFFFF">9:41</text>
+  <rect x="318" y="22" width="18" height="11" rx="2" fill="#FFFFFF"/>
+  <rect x="340" y="20" width="22" height="13" rx="3" fill="#FFFFFF"/>
+  <rect x="364" y="23" width="2" height="7" rx="1" fill="#FFFFFF"/>
+
+  <!-- Partner top bar -->
+  <path d="M0 40 h390 v60 H0 Z" fill="#1473E6"/>
+  <path d="M0 0 h390 v40 H0 Z" fill="#1473E6"/>
+  <text x="28" y="76" font-size="20" fill="#FFFFFF">‹</text>
+  <text x="195" y="76" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">My Subscription</text>
+
+  <!-- Error illustration -->
+  <circle cx="195" cy="220" r="64" fill="#FDEAE7"/>
+  <circle cx="195" cy="220" r="44" fill="#EB1000"/>
+  <rect x="191" y="198" width="8" height="28" rx="4" fill="#FFFFFF"/>
+  <circle cx="195" cy="238" r="4" fill="#FFFFFF"/>
+
+  <!-- Heading -->
+  <text x="195" y="320" font-size="20" font-weight="700" fill="#1A1A1A" text-anchor="middle">Unable to check status</text>
+
+  <!-- Body -->
+  <text x="195" y="350" font-size="14" fill="#6B7280" text-anchor="middle">We couldn't load your subscription</text>
+  <text x="195" y="370" font-size="14" fill="#6B7280" text-anchor="middle">status. Check your connection and retry.</text>
+
+  <!-- Last known status (stale but informative) -->
+  <rect x="24" y="398" width="342" height="84" rx="16" fill="#FFFFFF"/>
+  <text x="44" y="426" font-size="11" font-weight="600" fill="#9AA0A6" letter-spacing="0.5">LAST KNOWN STATUS</text>
+  <rect x="44" y="438" width="56" height="26" rx="13" fill="#E3F4E9"/>
+  <text x="72" y="455" font-size="11" font-weight="600" fill="#1E9E54" text-anchor="middle">Active</text>
+  <text x="116" y="455" font-size="13" fill="#6B7280">As of Jun 24, 2026 · may be out of date</text>
+
+  <!-- Retry CTA -->
+  <rect x="24" y="506" width="342" height="52" rx="14" fill="#EB1000"/>
+  <text x="195" y="539" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">Try again</text>
+
+  <!-- Secondary -->
+  <text x="195" y="592" font-size="14" font-weight="600" fill="#1473E6" text-anchor="middle">Contact support</text>
+</svg>

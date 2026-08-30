@@ -1,0 +1,43 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Screen background -->
+  <rect width="390" height="844" rx="40" fill="#FFFFFF"/>
+
+  <!-- Status bar -->
+  <text x="28" y="32" font-size="13" font-weight="600" fill="#FFFFFF">9:41</text>
+  <rect x="318" y="22" width="18" height="11" rx="2" fill="#FFFFFF"/>
+  <rect x="340" y="20" width="22" height="13" rx="3" fill="#FFFFFF"/>
+  <rect x="364" y="23" width="2" height="7" rx="1" fill="#FFFFFF"/>
+
+  <!-- Partner top bar -->
+  <path d="M0 40 h390 v60 H0 Z" fill="#1473E6"/>
+  <path d="M0 0 h390 v40 H0 Z" fill="#1473E6"/>
+  <circle cx="36" cy="70" r="10" fill="rgba(255,255,255,0.25)"/>
+  <text x="36" y="75" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">P</text>
+  <text x="56" y="76" font-size="17" font-weight="700" fill="#FFFFFF">Partner App</text>
+
+  <!-- Spinner area -->
+  <circle cx="195" cy="330" r="84" fill="#FDEAE7"/>
+  <circle cx="195" cy="330" r="36" fill="none" stroke="#F6D2CC" stroke-width="6"/>
+  <path d="M 195 294 A 36 36 0 0 1 231 330" fill="none" stroke="#EB1000" stroke-width="6" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 195 330" to="360 195 330" dur="0.9s" repeatCount="indefinite"/>
+  </path>
+  <rect x="179" y="314" width="32" height="32" rx="8" fill="#EB1000"/>
+  <text x="195" y="336" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">Ex</text>
+
+  <!-- Heading -->
+  <text x="195" y="470" font-size="22" font-weight="700" fill="#1A1A1A" text-anchor="middle">Setting up your</text>
+  <text x="195" y="498" font-size="22" font-weight="700" fill="#1A1A1A" text-anchor="middle">Adobe Express Premium</text>
+
+  <!-- Progress text -->
+  <text x="195" y="534" font-size="14" fill="#6B7280" text-anchor="middle">This only takes a moment. Please wait</text>
+  <text x="195" y="554" font-size="14" fill="#6B7280" text-anchor="middle">while we activate your subscription.</text>
+
+  <!-- Progress dots -->
+  <circle cx="175" cy="598" r="4" fill="#EB1000"/>
+  <circle cx="195" cy="598" r="4" fill="#F6A99C"/>
+  <circle cx="215" cy="598" r="4" fill="#F6D2CC"/>
+
+  <!-- Disabled CTA -->
+  <rect x="24" y="744" width="342" height="52" rx="14" fill="#F1F2F4"/>
+  <text x="195" y="777" font-size="16" font-weight="600" fill="#B6BBC2" text-anchor="middle">Activating…</text>
+</svg>

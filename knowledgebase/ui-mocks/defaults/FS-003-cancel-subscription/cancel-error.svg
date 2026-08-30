@@ -1,0 +1,47 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <!-- Screen background -->
+  <rect width="390" height="844" rx="40" fill="#FFFFFF"/>
+
+  <!-- Status bar -->
+  <text x="28" y="32" font-size="13" font-weight="600" fill="#FFFFFF">9:41</text>
+  <rect x="318" y="22" width="18" height="11" rx="2" fill="#FFFFFF"/>
+  <rect x="340" y="20" width="22" height="13" rx="3" fill="#FFFFFF"/>
+  <rect x="364" y="23" width="2" height="7" rx="1" fill="#FFFFFF"/>
+
+  <!-- Partner top bar -->
+  <path d="M0 40 h390 v60 H0 Z" fill="#1473E6"/>
+  <path d="M0 0 h390 v40 H0 Z" fill="#1473E6"/>
+  <text x="195" y="76" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">My Subscription</text>
+
+  <!-- Error illustration -->
+  <circle cx="195" cy="240" r="80" fill="#FDEAE7"/>
+  <circle cx="195" cy="240" r="56" fill="#EB1000"/>
+  <rect x="190" y="212" width="10" height="34" rx="5" fill="#FFFFFF"/>
+  <circle cx="195" cy="264" r="5" fill="#FFFFFF"/>
+
+  <!-- Heading -->
+  <text x="195" y="356" font-size="22" font-weight="700" fill="#1A1A1A" text-anchor="middle">Something went wrong</text>
+
+  <!-- Body / reassurance -->
+  <text x="195" y="390" font-size="14" fill="#6B7280" text-anchor="middle">We couldn't cancel your subscription.</text>
+  <text x="195" y="410" font-size="14" fill="#6B7280" text-anchor="middle">Your subscription is still active.</text>
+
+  <!-- Status reassurance card -->
+  <rect x="24" y="438" width="342" height="60" rx="16" fill="#F4F5F7"/>
+  <circle cx="54" cy="468" r="11" fill="#E3F4E9"/>
+  <text x="54" y="473" font-size="12" font-weight="700" fill="#1E9E54" text-anchor="middle">✓</text>
+  <text x="78" y="463" font-size="13" font-weight="600" fill="#1A1A1A">Adobe Express Premium</text>
+  <text x="78" y="481" font-size="12" fill="#6B7280">Status: Active — nothing has changed</text>
+
+  <!-- Retry CTA -->
+  <rect x="24" y="522" width="342" height="52" rx="14" fill="#EB1000"/>
+  <text x="195" y="555" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">Try again</text>
+
+  <!-- Secondary: contact support -->
+  <rect x="24" y="586" width="342" height="52" rx="14" fill="#F1F2F4"/>
+  <text x="195" y="619" font-size="16" font-weight="600" fill="#1A1A1A" text-anchor="middle">Contact support</text>
+
+  <!-- Fine print -->
+  <text x="195" y="682" font-size="12" fill="#9AA0A6" text-anchor="middle">If the problem continues, our support team</text>
+  <text x="195" y="700" font-size="12" fill="#9AA0A6" text-anchor="middle">can cancel the subscription for you.</text>
+</svg>
